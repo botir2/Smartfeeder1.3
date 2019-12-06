@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The width that is used when creating login edit of applications. -->
+    <dimen name="rectangle_107_width">284dp</dimen>
+    <!-- The height that is used when creating login edit  of applications. -->
+    <dimen name="rectangle_107_height">43dp</dimen>
+    <!-- The height that is used when creating login edit  of applications. -->
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <!-- The height that is used when creating login edit  of applications. -->
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+</resources>

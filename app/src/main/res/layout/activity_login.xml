@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ahqlab.jin.smartfeeder.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        />
+
+    <ImageView
+        android:id="@+id/hodoo_brand_imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hodoo_brand_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        />
+
+    <TextView
+        android:id="@+id/square_account_login_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#ee605b"
+        android:clickable="true"
+        android:text="SQUARE 계정으로 HODOO Fit 로그인"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/login_input_layout"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/rectangle_107_addr_img_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/rectangle_107" />
+            <EditText
+                android:id="@+id/login_id_edit"
+                android:layout_width="256dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:hint="@string/login_id"
+                android:textColorHint="@color/colorAddress"
+                android:inputType="textUri"
+                android:textSize="15sp"></EditText>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/rectangle_107_pw_img_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/rectangle_107" />
+            <EditText
+                android:id="@+id/login_pw_edit"
+                android:layout_width="256dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:hint="@string/login_pw"
+                android:textColorHint="@color/colorPassword"
+                android:inputType="textPassword"
+                android:textSize="15sp"></EditText>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:hint="@string/login_text"
+            android:background="@drawable/login_btn_2_release"
+            android:textColorHint="@color/colorLoginText"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/create_account_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#EE605B"
+                android:text="계정 생성"
+                />
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:fontFamily="sans-serif"
+                android:textColor="#EE605B"
+                android:text="|"
+                />
+            <TextView
+                android:id="@+id/unknown_password_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:textSize="9sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="#666666"
+                android:text="비밀번호를 분실하셨습니까?"
+                />
+            ></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
